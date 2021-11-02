@@ -22,3 +22,6 @@ d = {"apple":100, "kiwi":200, "orange":300}
 for item in d.items():
     print(item)
 
+for k in d.keys():
+    print(k)
+
