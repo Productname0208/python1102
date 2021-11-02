@@ -17,5 +17,8 @@ for item in lst:
     print(item, type(item))
 
 # 딕셔너리
-d = {"apple":100, "kiwi",200, "orange":300}
+d = {"apple":100, "kiwi":200, "orange":300}
+
+for item in d.items():
+    print(item)
 
