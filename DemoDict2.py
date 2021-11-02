@@ -46,3 +46,12 @@ b = a[:]
 a[0]  = 38
 print(a,b)
 print(id(a),id(b))
+
+# 분기 구문
+score = int(input('Input Score:'))
+if 90<= score <= 100:
+    grade = "A"
+else:
+    grade = "F"
+
+print("Grade is "+grade)
