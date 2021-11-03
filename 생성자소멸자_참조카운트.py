@@ -8,9 +8,11 @@ class MyClass:
 
 #인스턴스 생성 
 d = MyClass(10)
-d_copy = d
-del d_copy 
+MyClass.__init__(d,7)
+# d_copy = d
+# del d_copy 
 del d
+print("전체 코드 실행 종료")
 
 
 

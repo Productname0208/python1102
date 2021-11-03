@@ -1,5 +1,6 @@
 #연산자 오버라이드 
 class NumBox:
+	# 초기화
 	def __init__(self, num):
 		self.Num = num
 	def __add__(self, num):

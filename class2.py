@@ -34,8 +34,16 @@ print(Person.num_person)
 Person.title = "new title"
 print(p1.title)
 print(p2.title)
-print(Person.title)/
+print(Person.title)
 
 p1.age = 30
 print(p1.age)
 # print(p2.age)
+
+class MyCalc(object):
+   
+    def my_add(x,y):
+        return x+y
+
+a = MyCalc.my_add(5,7)
+print(a)

@@ -10,4 +10,5 @@ print("p is instance of Person: ", isinstance(p, Person))
 print("s is instance of Person: ", isinstance(s, Person))
 print("p is instance of Object: ", isinstance(p, object))
 print("p is instance of Bird: ", isinstance(p, Bird))
+print("s is instance of Object: ", isinstance(s, object)) #부모의 부모도 isinstance에 해당
 print("int is instance of Object: ", isinstance(int, object))
